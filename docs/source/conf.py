@@ -22,7 +22,7 @@ import os
 sys.path.insert(0, os.path.abspath('..'))
 print('\nCurrent path: ')
 print(os.path.abspath('.'))
-# sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0, os.path.abspath('../..'))
 print('System path:\n')
 print(sys.path)
 print('\n\n')
